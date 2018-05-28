@@ -1,0 +1,56 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+  font-family: 'Teko', sans-serif;
+}
+li {
+  list-style: none;
+}
+@media only screen and (min-width: 960px) {
+
+  .mountain_background {
+    background-image: url(./../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 795px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 960px;
+    height: 280px;
+  }
+
+  ul.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    padding-top:75px;
+  }
+  .slider_background {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    height: 400px;
+
+
+  }
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./../images/iphone_4b.png);
+    background-repeat: no-repeat;
+    background-position: 78% 50%;
+    height: 400px;
+    width: 960px;
+
+  }
+  .slider_text {
+    width: 500px;
+    margin-right: 180px;
+  }
+}
