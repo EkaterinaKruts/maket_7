@@ -16,6 +16,7 @@ li {
     background-repeat: no-repeat;
     height: 795px;
   }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -30,14 +31,14 @@ li {
     width: 640px;
     padding-top:75px;
   }
+
   .slider_background {
     display: flex;
     justify-content: center;
     background: rgba(0, 0, 0, 0.2);
     height: 400px;
-
-
   }
+
   .slider {
     display: flex;
     align-items: center;
@@ -52,5 +53,26 @@ li {
   .slider_text {
     width: 500px;
     margin-right: 180px;
+  }
+
+  .about {
+    height: 343px;
+  }
+
+  .coment {
+    height: 485px;
+  }
+
+  .partners {
+    height: 120px;
+  }
+
+  .article {
+    height: 395px;
+  }
+
+  footer {
+    height: 115px;
+    background-image: url(./../images/footer.jpg);
   }
 }
