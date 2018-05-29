@@ -1,9 +1,12 @@
+@import "fonts.css";
+
 * {
  margin: 0;
  padding: 0;
 }
+
 body {
-  font-family: 'Teko', sans-serif;
+  font-family: 'league gothic', sans-serif;
 }
 li {
   list-style: none;
@@ -14,7 +17,7 @@ li {
     background-image: url(./../images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 795px;
+    height: 845px;
   }
 
   header {
@@ -29,12 +32,42 @@ li {
     display: flex;
     justify-content: space-between;
     width: 640px;
-    padding-top:75px;
+    ;
   }
+
+  a.menu li, .logo, h1, p, h3, .block_about a {
+    color: #ffffff;
+    text-shadow: rgba(0 ,0 ,0 , 0.4) 1px 1px 2px;
+  }
+
+  .logo {
+    font-size: 48px;
+    margin-top: 70px;
+  }
+  span.logo_colorword {
+    background: -webkit-linear-gradient(#955bae,#955bae, #322539);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  a.menu {
+    font-size: 24px;
+    text-decoration: none;
+    height: 30px;
+    margin-top: 75px;
+    padding: 0 10px 0 10px;
+  }
+
+  a.menu:hover {
+    border-bottom: 2px solid #edbfff;
+  }
+
+
 
   .slider_background {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
     background: rgba(0, 0, 0, 0.2);
     height: 400px;
   }
@@ -45,21 +78,97 @@ li {
     justify-content: center;
     background-image: url(./../images/iphone_4b.png);
     background-repeat: no-repeat;
-    background-position: 78% 50%;
+    background-position: 75% 50%;
     height: 400px;
     width: 960px;
 
   }
   .slider_text {
-    width: 500px;
-    margin-right: 180px;
+    width: 530px;
+    margin-right: 190px;
+  }
+
+  .strelka {
+    height: 35px;
+  }
+
+  div.iphone_4 {
+    background-image: url(./../images/iphone_4.png);
+    width: 200px;
+    height: 434px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+  }
+
+  .play {
+    padding-bottom: 45px;
+  }
+
+  .play:hover {
+    height: 90px;
+    width: 90px;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #edbfff;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  }
+
+  .gradient-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#745082, #33253a );
+
+  }
+
+  .block_about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 60px;
+
+  }
+
+  .block_about a {
+    text-decoration: none;
   }
 
   .about {
+    display: flex;
+    justify-content: space-between;
     height: 343px;
+    width: 960px;
+
   }
 
-  .coment {
+  .about p{
+    font-size: 16px;
+    width: 220px;
+    height: 110px;
+    overflow: hidden;
+
+  }
+
+  h3 {
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+
+  .comment {
     height: 485px;
   }
 
