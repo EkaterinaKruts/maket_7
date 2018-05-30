@@ -138,12 +138,42 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 60px;
+    width: 280px;
+
 
   }
 
   .block_about a {
     text-decoration: none;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 165px;
+    text-align: right;
+  }
+
+  .block_about a:hover {
+    text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 10px;
+  }
+
+  .key::before {
+    content: url(./../images/icon_1.png) ;
+    position: absolute;
+    width: 35px;
+    height: 190px;
+  }
+
+  .cloud::before {
+    content: url(./../images/icon_3.png) ;
+    position: absolute;
+    width: 35px;
+    height: 190px;
+  }
+
+  .music::before {
+    content: url(./../images/icon_4.png) ;
+    position: absolute;
+    width: 35px;
+    height: 190px;
   }
 
   .about {
@@ -156,15 +186,18 @@ li {
 
   .about p{
     font-size: 16px;
-    width: 220px;
+    width: 230px;
     height: 110px;
     overflow: hidden;
+    padding-left: 55px;
 
   }
 
   h3 {
     font-weight: normal;
     font-size: 30px;
+    padding-left: 55px;
+    padding-bottom: 10px;
   }
 
 
