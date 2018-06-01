@@ -32,7 +32,7 @@ li {
     display: flex;
     justify-content: space-between;
     width: 640px;
-    ;
+
   }
 
   a.menu li, .logo, h1, p, h3, .block_about a {
@@ -44,6 +44,7 @@ li {
     font-size: 48px;
     margin-top: 70px;
   }
+
   span.logo_colorword {
     background: -webkit-linear-gradient(#955bae,#955bae, #322539);
     -webkit-background-clip: text;
@@ -396,7 +397,8 @@ li {
   }
   .frame_2 a {
     margin-top: 0;
-    font-size: 25px;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
   }
 
   .frame_2 div {
@@ -407,5 +409,13 @@ li {
 
   .frame_2 span {
     font-weight: bold;
+  }
+}
+@media only screen and (min-width:768px)and (max-width: 959px) {
+  .mountain_background {
+    background-image: url(./../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 835px;
   }
 }
