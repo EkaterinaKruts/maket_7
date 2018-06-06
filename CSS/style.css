@@ -6,17 +6,18 @@
 }
 
 body {
-  font-family: 'league gothic', sans-serif;
+  font-family: 'league_gothic', sans-serif;
 }
 li {
   list-style: none;
 }
-@media only screen and (min-width: 960px) {
+
 
   .mountain_background {
     background-image: url(./../images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 845px;
   }
 
@@ -29,13 +30,16 @@ li {
   }
 
   ul.menu {
+    height: 29px;
+    width: 640px;
     display: flex;
     justify-content: space-between;
-    width: 640px;
-
+    margin-top: 75px;
   }
 
-  a.menu li, .logo, h1, p, h3, .block_about a {
+
+
+  li a.menu , .logo, h1, p, h3, .block_about a {
     color: #ffffff;
     text-shadow: rgba(0 ,0 ,0 , 0.4) 1px 1px 2px;
   }
@@ -51,7 +55,7 @@ li {
     -webkit-text-fill-color: transparent;
   }
 
-  a.menu {
+   a.menu {
     font-size: 24px;
     text-decoration: none;
     height: 30px;
@@ -95,6 +99,7 @@ li {
 
   div.iphone_4 {
     background-image: url(./../images/iphone_4.png);
+    background-repeat: no-repeat;
     width: 200px;
     height: 434px;
     display: flex;
@@ -103,8 +108,14 @@ li {
     margin-right: 70px;
   }
 
-  .play {
-    padding-bottom: 45px;
+  .iphone_4 a {
+    position: relative;
+    bottom: 40px;
+  }
+
+   a img.play {
+    width: 76px;
+    height: 76px;
   }
 
   .play:hover {
@@ -410,12 +421,16 @@ li {
   .frame_2 span {
     font-weight: bold;
   }
-}
+  .frame_2 ul.menu{
+    margin-top: 45px;
+    margin-bottom: 45px
+  }
+
 @media only screen and (min-width:768px)and (max-width: 959px) {
   .mountain_background {
     background-image: url(./../images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 835px;
+    height: 798px;
   }
 }
