@@ -147,11 +147,12 @@ li {
 
   }
 
-  .block_about {
+  div.block_about {
+    position: relative;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     width: 280px;
+    height: 235px;
 
 
   }
@@ -168,30 +169,29 @@ li {
     text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 10px;
   }
 
+  .key::before, .cloud::before, .music::before {
+    position: absolute;
+    top: 10px;
+    height: 35px;
+    width: 35px;
+
+  }
   .key::before {
     content: url(./../images/icon_1.png) ;
-    position: absolute;
-    width: 35px;
-    height: 190px;
   }
 
   .cloud::before {
     content: url(./../images/icon_3.png) ;
-    position: absolute;
-    width: 35px;
-    height: 190px;
   }
 
   .music::before {
     content: url(./../images/icon_4.png) ;
-    position: absolute;
-    width: 35px;
-    height: 190px;
   }
 
   .about {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 343px;
     width: 960px;
 
@@ -202,7 +202,7 @@ li {
     width: 230px;
     height: 110px;
     overflow: hidden;
-    padding-left: 55px;
+    margin-left:55px;
 
   }
 
@@ -265,6 +265,7 @@ li {
   }
 
   .comments_left h3 {
+    position: relative;
     padding-top: 30px;
     padding-left: 40px;
   }
@@ -280,8 +281,9 @@ li {
   .comments_left h3::before {
     content: url(./../images/icon_2.png);
     position: absolute;
-    margin-left: -65px;
-    margin-top: -10px;
+    left: -25px;
+    top: 20px;
+
   }
 
   .comments_left {
@@ -316,6 +318,10 @@ li {
 
   .comments_right p{
     padding-left: 65px;
+  }
+
+  .comments_right_1 div{
+    position: relative;
   }
 
   .comments_right_1 div::before {
@@ -374,6 +380,9 @@ li {
     padding-bottom: 5px;
   }
 
+  div.logo, a.menu, .slider_text h2, h3, .about a, .comments_right a, h4{
+    text-transform: uppercase;
+  }
 
   .article p {
     color: #787878;
