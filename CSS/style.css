@@ -437,9 +437,57 @@ li {
 
 @media only screen and (min-width:768px)and (max-width: 959px) {
   .mountain_background {
-    background-image: url(./../images/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 798px;
+    height: 795px;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+    width: 768px;
+    height: 245px;
+  }
+
+  ul.menu {
+    margin: 0 0 0 20px;
+  }
+
+  div.logo {
+    margin: 0 0 20px 30px;
+  }
+
+  div.slider {
+    width: 728px;
+    height: 400px;
+    background-position: 71% 50%;
+  }
+
+  div.slider_text {
+    height: 190px;
+    width: 330px;
+    margin-left: 20px;
+    margin-right: 150px;
+  }
+
+  .slider_text h1 {
+    font-size: 48px;
+  }
+
+  .slider_text h2 {
+    font-size: 24px;
+  }
+
+  .slider_text p {
+    font-size: 16px;
+    overflow: hidden;
+    height: 90px;
+    margin-top: 10px;
+  }
+
+  div.iphone_4 {
+    margin-right: 20px;
+  }
+
+  div.about {
+    width: 728px;
   }
 }
