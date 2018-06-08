@@ -136,6 +136,7 @@ li {
   p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    font-weight: 300;
   }
 
   .gradient-background {
@@ -273,7 +274,7 @@ li {
 
   .Part_6 {
     width: 80px;
-  background-position: -696px 1px;
+    background-position: -696px 1px;
   }
 
   .frame {
@@ -349,7 +350,7 @@ li {
 
   .comments_right h4 {
     padding-left: 65px;
-    font-family: 'Open Sans Bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
   }
 
@@ -525,10 +526,6 @@ li {
     margin-right: 20px;
   }
 
-  div.about, div.frame{
-    width: 728px;
-  }
-
   div.block_about {
     width: 215px;
   }
@@ -579,7 +576,40 @@ li {
     padding-left: 230px;
   }
 
-  div.partners_frame {
+  div.partners_frame, .frame_1, .frame_2, div.about, div.frame {
     width: 728px;
   }
+
+  .frame_1 p, .article h4, .article_left, .article_center, .article_right {
+    width: 205px;
+  }
+
+  .article_left, .article_center, .article_right {
+    height: 210px;
+  }
+
+  .article h4 {
+    font-size: 24px;
+  }
+
+  .article p {
+    height: 155px;
+  }
+
+  footer {
+    height: 200px;
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 10px;
+  }
+  .frame_2 ul {
+    width: 525px;
+  }
+
+  .frame_2 div {
+    margin: 105px 20px 0 0;
+  }
+
+  .frame_2 span {
+    font-weight: bold;
+  }
+
 }
