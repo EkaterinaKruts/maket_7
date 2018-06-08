@@ -234,11 +234,48 @@ li {
   .partners {
     height: 120px;
     background-color: #f9f9f9;
-    background-image: url(./../images/logos.png);
-    background-repeat: no-repeat;
-    background-position: center;
     border-top: 1px solid #e6e6e6;
   }
+
+  .partners_frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    height: 120px;
+  }
+
+  .Part_1, .Part_2, .Part_3, .Part_4, .Part_5, .Part_6 {
+    background-image: url(./../images/logos.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+  }
+
+  .Part_2 {
+    background-position: -135px 1px;
+  }
+
+  .Part_3 {
+    background-position: -266px 1px;
+  }
+
+  .Part_4 {
+    background-position: -393px 1px;
+  }
+
+  .Part_5 {
+    width: 105px;
+    background-position: -528px 1px;
+
+  }
+
+  .Part_6 {
+    width: 80px;
+  background-position: -696px 1px;
+  }
+
   .frame {
     display: flex;
     align-items: center;
@@ -380,7 +417,7 @@ li {
     padding-bottom: 5px;
   }
 
-  div.logo, a.menu, .slider_text h2, h3, .about a, .comments_right a, h4{
+  div.logo, a.menu, .slider_text h2, h3, .about a, .comments_right a, .frame_1 h4{
     text-transform: uppercase;
   }
 
@@ -423,6 +460,7 @@ li {
 
   .frame_2 div {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 12px;
     color: #ffffff;
   }
@@ -487,7 +525,7 @@ li {
     margin-right: 20px;
   }
 
-  div.about {
+  div.about, div.frame{
     width: 728px;
   }
 
@@ -495,17 +533,53 @@ li {
     width: 215px;
   }
 
-  .block_about h3 {
+   h3 {
     font-size: 24px;
   }
 
-  .block_about p {
+  p {
     font-size: 16px;
+  }
+
+  .block_about p {
     width: 160px;
     height: 135px;
   }
 
   .block_about a {
     padding-left: 0px;
+  }
+
+  div.comments_left, div.comments_right {
+    width: 315px;
+  }
+
+  .comments_left h3 {
+    width: 85px;
+  }
+
+  .comments_left p {
+    width: 250px;
+    height: 135px;
+    overflow: hidden;
+  }
+
+  div.comments_right_1 {
+    font-size: 16px;
+    width: 330px;
+  }
+
+  .comments_right_1 p {
+    width: 270px;
+    height: 22px;
+    overflow: hidden;
+  }
+
+  .comments_right a {
+    padding-left: 230px;
+  }
+
+  div.partners_frame {
+    width: 728px;
   }
 }
