@@ -1,17 +1,17 @@
-@import "fonts.css";
+    @import "fonts.css";
 
-* {
- margin: 0;
- padding: 0;
-}
+    * {
+     margin: 0;
+     padding: 0;
+    }
 
-body {
-  font-family: 'league_gothic', sans-serif;
-}
-li {
-  list-style: none;
-}
+    body {
+      font-family: 'league_gothic', sans-serif;
+    }
 
+    li {
+      list-style: none;
+    }
 
   .mountain_background {
     background-image: url(./../images/background.jpg);
@@ -36,8 +36,6 @@ li {
     justify-content: space-between;
     margin-top: 75px;
   }
-
-
 
   li a.menu , .logo, h1, p, h3, .block_about a {
     color: #ffffff;
@@ -86,8 +84,8 @@ li {
     background-position: 75% 50%;
     height: 400px;
     width: 960px;
-
   }
+
   .slider_text {
     width: 530px;
     margin-right: 190px;
@@ -133,6 +131,7 @@ li {
     font-weight: normal;
     color: #edbfff;
   }
+
   p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -145,7 +144,6 @@ li {
     align-items: center;
     background: linear-gradient(#745082, #33253a );
     border-top: solid 1px #000000;
-
   }
 
   div.block_about {
@@ -154,8 +152,6 @@ li {
     flex-direction: column;
     width: 280px;
     height: 235px;
-
-
   }
 
   .block_about a {
@@ -195,16 +191,14 @@ li {
     align-items: center;
     height: 343px;
     width: 960px;
-
   }
 
-  .about p{
+  .about p {
     font-size: 16px;
     width: 230px;
     height: 110px;
     overflow: hidden;
     margin-left:55px;
-
   }
 
   h3 {
@@ -224,7 +218,6 @@ li {
     background-image: url(./../images/background_comment.png);
     background-repeat: no-repeat;
     background-position: center;
-
   }
 
   .comments_left, .comments_right {
@@ -291,6 +284,7 @@ li {
     text-shadow: none;
     padding: 0;
   }
+
   .frame p {
     font-size: 16px;
     text-shadow: none;
@@ -316,12 +310,12 @@ li {
   .comments_left span {
     color: #edbfff;
   }
+
   .comments_left h3::before {
     content: url(./../images/icon_2.png);
     position: absolute;
     left: -25px;
     top: 20px;
-
   }
 
   .comments_left {
@@ -336,7 +330,7 @@ li {
     width: 460px;
   }
 
-  .comments_right{
+  .comments_right {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -354,11 +348,11 @@ li {
     font-size: 16px;
   }
 
-  .comments_right p{
+  .comments_right p  {
     padding-left: 65px;
   }
 
-  .comments_right_1 div{
+  .comments_right_1 div {
     position: relative;
   }
 
@@ -427,14 +421,12 @@ li {
     font-size: 16px;
     text-shadow: 1px 2px 1px #ffffff;
     width: 280px;
-
   }
 
   .article_left div {
     font-family: cursive;
     color: #c5c5c5;
     margin: 10px 0 10px 0;
-
   }
 
 
@@ -469,9 +461,13 @@ li {
   .frame_2 span {
     font-weight: bold;
   }
-  .frame_2 ul.menu{
+  .frame_2 ul.menu {
     margin-top: 45px;
     margin-bottom: 45px
+  }
+
+  #home {
+    display: none;
   }
 
 @media only screen and (min-width:768px)and (max-width: 959px) {
@@ -600,6 +596,7 @@ li {
     height: 200px;
     text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 10px;
   }
+
   .frame_2 ul {
     width: 525px;
   }
@@ -611,5 +608,78 @@ li {
   .frame_2 span {
     font-weight: bold;
   }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .mountain_background {
+      height: 548px;
+    }
+
+    header {
+      flex-direction: column;
+      height: 200px;
+      width: 480px;
+      align-items: center;
+      position: relative;
+    }
+
+    div.logo {
+      height: 60px;
+      width: 160px;
+    }
+
+    /*it's style for mobile munu */
+
+     .mountain_background  ul.menu {
+      position: absolute;
+      top: 250px;
+      border: 1px solid #051116;
+      margin-top: 0;
+      justify-content: center;
+      flex-direction: column;
+      width: 245px;
+      height: 264px;
+      background-color: rgba(54, 41, 62, 0.90);
+      border-radius: 10px;
+      box-shadow:  2px 0px 3px rgba(0, 0, 0, 0.2),
+                  -2px 3px 5px rgba(0, 0, 0, 0.5) ;
+    }
+
+     header a.menu {
+       border-bottom: 1px solid #35273d;
+       display:block;
+       line-height: 43px;
+       text-align: center;
+       width: 245px;
+       height: 43px;
+       margin: 0;
+       padding: 0;
+       box-shadow: 0px 2px 0 rgba(112, 71, 128, 0.59) inset,
+                   0px 1px rgba(112, 71, 128);
+    }
+
+     header a.menu:hover {
+      height: 42px;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+     header li:first-child a {
+       border-top-left-radius: 8px;
+       border-top-right-radius: 8px;
+    }
+
+     header li:last-child a {
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+
+    /*other style/
+
+
+
+
+
+
 
 }
