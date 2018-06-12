@@ -466,10 +466,6 @@
     margin-bottom: 45px
   }
 
-  #home {
-    display: none;
-  }
-
 @media only screen and (min-width:768px)and (max-width: 959px) {
   .mountain_background {
     height: 795px;
@@ -674,7 +670,7 @@
             border-bottom-right-radius: 8px;
           }
 
-      
+
           */
 
           /*other style*/
@@ -722,8 +718,6 @@
       background-position: 68% 75%;
     }
 
-
-
     a img.play {
       height: 52px;
       width: 52px;
@@ -733,7 +727,7 @@
       bottom: 10px;
     }
 
-     ul.menu {
+ header ul.menu {
       width: 50px;
       margin: 0 0 30px 0;
       align-items: center;
@@ -745,6 +739,144 @@
 
     img.strelka {
       height: 40px;
+    }
+
+    div.gradient-background {
+      height: 600px;
+    }
+
+    div.about {
+      margin: 0;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 440px;
+      height: 450px;
+    }
+
+    div.block_about {
+      width: 440px;
+      justify-content: center;
+    }
+
+    div.block_about p {
+      width: 380px;
+      height: 65px;
+    }
+
+    div.block_about h3 {
+      font-size: 24px;
+    }
+
+    div.comment, div.frame {
+      height: 785px;
+    }
+
+    div.frame {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    div.comments_left {
+      height: 315px;
+      margin: 70px 0 80px 0;
+      background-size: 550px;
+    }
+
+    div.comments_left p {
+      width: 355px;
+    }
+
+    div.comments_right {
+      height: 320px;
+      margin:0 0 70px 125px;
+
+    }
+
+    div.comments_right p {
+      width: 260px;
+      height: 20px;
+      overflow: hidden;
+    }
+
+    div.comments_right a {
+      padding:0;
+      margin-left: 250px;
+    }
+
+    div.partners {
+      height: 230px;
+    }
+
+    div.partners_frame {
+      flex-wrap: wrap;
+      width: 350px;
+      height: 230px;
+      justify-content: space-around;
+      align-content:space-around;
+    }
+
+    .partners_frame div {
+      margin: 25px 20px 0 20px;
+    }
+
+    div.Part_4, div.Part_5, div.Part_6 {
+      margin: 0 0 40px 0;
+    }
+
+    div.Part_4 {
+      margin-right: 20px;
+    }
+
+    div.frame_1 {
+      flex-direction: column;
+      justify-content: space-around;
+      height: 525px;
+    }
+
+    div.article {
+      height: 665px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .frame_1 h4 {
+      font-size: 24px;
+    }
+
+    .frame_1 div {
+      width: 440px;
+      height: 126px;
+    }
+
+    .frame_1 p {
+      width: 440px;
+      height: 90px;
+    }
+
+    div.article_left p {
+      height: 95px;
+    }
+
+    div.article_left {
+      height: 155px;
+    }
+
+    .article_left div {
+      height: 18px;
+    }
+
+    footer {
+      height: 200px;
+    }
+
+    div.frame_2 {
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+    }
+
+    div.frame_2 ul {
+      width: 440px;
     }
 
 
