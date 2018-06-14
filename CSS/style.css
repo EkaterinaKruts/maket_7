@@ -627,7 +627,7 @@
 
     /*it's style for mobile munu */
 
-        /* .mountain_background  ul.menu {
+        .mountain_background  ul.menu {
             position: absolute;
             top: 250px;
             border: 1px solid #051116;
@@ -671,7 +671,7 @@
           }
 
 
-          */
+
 
           /*other style*/
     div.partners_frame, .frame_1, .frame_2, div.about, div.frame, div.slider {
@@ -680,7 +680,6 @@
 
     div.slider_background {
       height:245px;
-
     }
 
     .slider_text p {
@@ -727,7 +726,7 @@
       bottom: 10px;
     }
 
- header ul.menu {
+    header ul.menu {
       width: 50px;
       margin: 0 0 30px 0;
       align-items: center;
@@ -789,7 +788,6 @@
     div.comments_right {
       height: 320px;
       margin:0 0 70px 125px;
-
     }
 
     div.comments_right p {
@@ -879,10 +877,170 @@
       width: 440px;
     }
 
+}
 
+@media only screen and (min-width: 320px) and (max-width: 479px) {
 
+  div.partners_frame, .frame_1, .frame_2, div.about, div.frame, div.slider {
+    width: 280px;
+  }
 
+  .mountain_background {
+    height: 515px;
+  }
 
+  header {
+    width: 320px;
+    height: 170px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.logo {
+    margin-top: 55px;
+  }
+
+  header ul.menu {
+    width: 50px;
+    margin: 0 0 0px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content:flex-start;
+    overflow: hidden;
+    height: 33px;
+  }
+
+  div.iphone_4, .slider_text p, div.frame_2 ul, div.article{
+    display: none;
+  }
+
+  div.slider, div.slider_background {
+    background-image: none;
+    height: 345px;
+  }
+
+  div.slider_background {
+    background: none;
+    width: 320px;
+    margin: auto;
+  }
+
+  .slider_text h1 {
+    font-size: 36px;
+  }
+
+  .slider_text h2 {
+    font-size: 18px;
+  }
+
+  div.slider_text {
+    margin: 0;
+    height: 300px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+
+  }
+
+  img.strelka {
+    height: 40px;
+    position: relative;
+    top: -20px;
+  }
+
+  div.about, div.frame {
+    flex-direction: column;
+  }
+
+  div.gradient-background {
+    height: 595px;
+  }
+
+  div.about {
+    height: 465px;
+  }
+
+  div.about h3 {
+    font-size: 24px;
+    padding-bottom: 0;
+  }
+
+  div.about p {
+    width: 200px;
+  }
+
+  div.about a {
+    padding: 0;
+    margin: 20px 20px 20px 0;
+  }
+
+  div.comment {
+    display: flex;
+    height: 785px;
+    align-content: center;
+  }
+
+  div.frame {
+    height: 630px;
+  }
+
+  div.comments_left {
+    width: 280px;
+  }
+
+  div.comments_left p {
+    width: 185px;
+    height:158px;
+    overflow: hidden;
+  }
+
+  div.comments_left h3 {
+    font-size: 24px;
+    width: 95px;
+  }
+
+  div.comments_right {
+    width: 280px;
+    height: 300px;
+    padding: 0;
+  }
+
+  div.comments_right_1 {
+    width: 280px;
+    overflow: hidden;
+  }
+
+  div.comments_right_1 h4, div.comments_right_1 p {
+    width: 220px;
+    height: 20px;
+    overflow: hidden;
+  }
+
+  div.comments_right a {
+    padding: 0px;
+    margin-left: 195px;
+  }
+
+  div.partners, div.partners_frame {
+    height: 420px;
+  }
+
+  div.partners_frame {
+    flex-wrap: wrap;
+    width: 200px;
+  }
+
+  div.frame_2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    height: 200px;
+  }
 
 
 
